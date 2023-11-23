@@ -1,0 +1,2 @@
+### get members
+GET {{host}}:{{port}}/sample/members

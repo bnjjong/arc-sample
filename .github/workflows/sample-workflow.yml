@@ -25,7 +25,7 @@ jobs:
 
     runs-on: sample-app-runner
     container:
-      image: ubuntu:20.04
+      image: summerwind/actions-runner:ubuntu-20.04
       options: --user root
 
     steps:

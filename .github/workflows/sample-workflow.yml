@@ -48,6 +48,8 @@ jobs:
 #        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
 #        restore-keys: |
 #          ${{ runner.os }}-gradle-
+    - name: export java
+      run: echo "$JAVA_HOME_21_X64" && export JAVA_HOME=$JAVA_HOME_21_X64 && echo "$JAVA_HOME"
     - name: Build with Gradle
       run: ./gradlew build
 

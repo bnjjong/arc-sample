@@ -24,32 +24,33 @@ jobs:
   build:
 
     runs-on: sample-app-runner
-#    container:
-#      image: summerwind/actions-runner:ubuntu-20.04@sha256:7b5ec64f4e1e0a1a2bde71ee63da5b818529a667c4f6190324c8e70c4d4ef134
-#      options: --user root
+    container:
+      image: summerwind/actions-runner:ubuntu-20.04@sha256:7b5ec64f4e1e0a1a2bde71ee63da5b818529a667c4f6190324c8e70c4d4ef134
+      options: --user root
 
     steps:
     - uses: actions/checkout@v3
-#    - name: Set up JDK 21
-#      uses: actions/setup-java@v3
-#      with:
-#        java-version: '21'
-#        distribution: 'temurin'
+
+    - name: Set up JDK 21
+      uses: actions/setup-java@v3
+      with:
+        java-version: '21'
+        distribution: 'temurin'
 
     - name: Check my source
       run: pwd && ls -al
 
-#    - name: Gradle Caching
-#      uses: actions/cache@v3
-#      with:
-#        path: |
-#          ~/.gradle/caches
-#          ~/.gradle/wrapper
-#        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
-#        restore-keys: |
-#          ${{ runner.os }}-gradle-
-    - name: export java
-      run: echo "$JAVA_HOME_21_X64" && export JAVA_HOME=$JAVA_HOME_21_X64 && echo "$JAVA_HOME"
+    - name: Gradle Caching
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.gradle/caches
+          ~/.gradle/wrapper
+        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+        restore-keys: |
+          ${{ runner.os }}-gradle-
+#    - name: export java
+#      run: echo "$JAVA_HOME_21_X64" && export JAVA_HOME=$JAVA_HOME_21_X64 && echo "$JAVA_HOME"
     - name: Build with Gradle
       run: ./gradlew build
 

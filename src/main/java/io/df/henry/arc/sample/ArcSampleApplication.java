@@ -1,13 +1,13 @@
-package io.jjong.arcjava;
+package io.df.henry.arc.sample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ArcJavaApplication {
+public class ArcSampleApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(ArcJavaApplication.class, args);
+    SpringApplication.run(ArcSampleApplication.class, args);
   }
 
 }

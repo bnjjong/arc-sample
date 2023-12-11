@@ -1,7 +1,7 @@
-package io.jjong.arcjava.api;
+package io.df.henry.arc.sample.api;
 
-import io.jjong.arcjava.dto.MemberDto;
-import io.jjong.arcjava.service.MemberService;
+import io.df.henry.arc.sample.dto.MemberDto;
+import io.df.henry.arc.sample.service.MemberService;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

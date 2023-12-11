@@ -5,7 +5,7 @@ plugins {
     id 'org.graalvm.buildtools.native' version '0.9.28'
 }
 
-group = 'io.jjong'
+group = 'df.henry'
 version = '0.0.1-SNAPSHOT'
 
 java {

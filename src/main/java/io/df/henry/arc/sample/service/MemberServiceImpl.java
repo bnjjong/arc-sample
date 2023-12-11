@@ -1,14 +1,16 @@
-package io.jjong.arcjava.service;
+package io.df.henry.arc.sample.service;
 
-import io.jjong.arcjava.dto.MemberDto;
-import io.jjong.arcjava.fixture.MemberFixture;
+
+import io.df.henry.arc.sample.dto.MemberDto;
+import io.df.henry.arc.sample.fixture.MemberFixture;
 import java.util.List;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 @Service
 @Slf4j
-public class MemberServiceImpl implements MemberService {
+public class MemberServiceImpl
+    implements MemberService {
 
   @Override
   public List<MemberDto> retrieveMembers() {

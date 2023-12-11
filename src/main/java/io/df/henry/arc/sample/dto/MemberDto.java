@@ -1,4 +1,4 @@
-package io.jjong.arcjava.dto;
+package io.df.henry.arc.sample.dto;
 
 import lombok.AccessLevel;
 import lombok.Getter;

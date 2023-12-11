@@ -1,6 +1,6 @@
-package io.jjong.arcjava.fixture;
+package io.df.henry.arc.sample.fixture;
 
-import io.jjong.arcjava.dto.MemberDto;
+import io.df.henry.arc.sample.dto.MemberDto;
 import java.util.List;
 
 public class MemberFixture {

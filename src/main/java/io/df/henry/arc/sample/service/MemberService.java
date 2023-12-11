@@ -1,6 +1,6 @@
-package io.jjong.arcjava.service;
+package io.df.henry.arc.sample.service;
 
-import io.jjong.arcjava.dto.MemberDto;
+import io.df.henry.arc.sample.dto.MemberDto;
 import java.util.List;
 
 public interface MemberService {

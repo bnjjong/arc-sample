@@ -3,8 +3,8 @@ https://velog.io/@luna7182/%EB%B0%B1%EC%97%94%EB%93%9C-%ED%94%84%EB%A1%9C%EC%A0%
 
 ---
 [![Written in Java](https://img.shields.io/static/v1?message=Jdk21&labelColor=5c5c5c&color=FF7800&logoColor=white&label=%20&logo=openjdk)](https://jdk.java.net/21/)
-[![Written in spring](https://img.shields.io/static/v1?message=SpringBoot-3.1.5&labelColor=5c5c5c&color=6DB33F&logoColor=white&label=%20&logo=SpringBoot)](https://spring.io/projects/spring-boot)
-[![Gradle](https://img.shields.io/static/v1?message=Gradle-8.4&labelColor=5c5c5c&color=blue&logoColor=white&label=%20&logo=Gradle)](https://docs.gradle.org/8.4/userguide/userguide.html)
+[![Written in spring](https://img.shields.io/static/v1?message=SpringBoot-3.2&labelColor=5c5c5c&color=6DB33F&logoColor=white&label=%20&logo=SpringBoot)](https://spring.io/projects/spring-boot)
+[![Gradle](https://img.shields.io/static/v1?message=Gradle-8.5&labelColor=5c5c5c&color=blue&logoColor=white&label=%20&logo=Gradle)](https://docs.gradle.org/8.4/userguide/userguide.html)
 [![Unit Test: junit5](https://img.shields.io/static/v1?message=junit-5.9.2&labelColor=5c5c5c&color=25a162&logoColor=white&label=%20&logo=junit5)](https://junit.org/junit5/)
 [![Code Style: Google](http://is.am/5hzj)](https://github.com/google/gts)
 ---

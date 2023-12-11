@@ -16,3 +16,7 @@ Github action을 테스트하기 위한 샘플 프로젝트 이다. 간단한 AP
 # Guide
 
 # 
+
+
+## License
+The [MIT License](LICENSE).

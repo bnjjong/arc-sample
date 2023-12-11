@@ -3,7 +3,7 @@ LABEL maintainer="Henry <dogfootmaster@gmail.com>"
 LABEL type="application"
 LABEL jdk="21"
 LABEL gradle="8.5"
-LABEL title="arc-sample-app"
+LABEL title="io-df-henry-arc-sample-api"
 LABEL version="1.0"
 
 WORKDIR /apps

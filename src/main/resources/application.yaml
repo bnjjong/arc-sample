@@ -1,10 +1,10 @@
 application:
-  id: io-jjong-sample-api
+  id: io-df-henry-arc-sample-api
   version: 1.0
 
 spring:
   application:
-    name: io-jjong-sample-api
+    nameio-df-henry-arc-sample-api
   profiles:
     active: local
 
